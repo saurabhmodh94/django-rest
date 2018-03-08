@@ -4,7 +4,6 @@ from tutorial.quickstart.serializers import UserSerializer, GroupSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
-
     """
     API endpoint that allows users to be viewed or edited.
     """
